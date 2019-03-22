@@ -25,6 +25,10 @@ cortex-m-semihosting = "0.3.2"
 panic-semihosting = "0.5.1"
 embedded-graphics = "0.4.7"
 sh1106 = "0.1.1"
+smart-leds = "0.1.0"
+ws2812-spi = "0.1.0"
+smart-leds-trait = "0.1.0"
+
 
 [dependencies.void]
 default-features = false

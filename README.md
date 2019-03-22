@@ -1,6 +1,18 @@
 # `Lasergun`
 
 
+cargo doc --open --bin spi
+
+sudo arm-none-eabi-gdb
+
+```
+target extended-remote /dev/ttyACM0
+monitor swdp_scan
+attach 1
+load /proj/blue-pill/stm32f1xx-hal/arget/thumbv7m-none-eabi/debug/examples/hello
+run
+```
+
 ## License
 
 Licensed under either of
