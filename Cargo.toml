@@ -28,6 +28,7 @@ sh1106 = "0.1.1"
 smart-leds = "0.1.0"
 ws2812-spi = "0.1.0"
 smart-leds-trait = "0.1.0"
+ws2812-timer-delay = {version = "0.1.0", features = ["slow"]}
 
 
 [dependencies.void]
